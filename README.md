@@ -1,4 +1,4 @@
-#### Data repository accompanying the paper "Programming with Chebfun. Case study: Richards equation" by Nicolae Suciu
+#### Data repository accompanying the paper "Programming with Chebfun. Case study: Richards equation" by Nicolae Suciu (https://arxiv.org/abs/2606.18118)
 
 ##### The repository contains Matlab codes with Chebfun extension organizsed in the following folders:
 
