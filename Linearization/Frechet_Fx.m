@@ -22,7 +22,7 @@ u=u0;
 s=0;
 plot3(x,chebfun(y,D),u0,'LineWidth',0.75), hold on
 while nrmv > 1e-6
-    if iop==1     % (Elapsed time is 2.96 minutes.)
+    if iop==1     % (Elapsed time is 92.40 seconds.)
         L=200; % use L=5; for u0=chebfun(0.5,D) % 
         u=u0-sign(dF(u))*phi(u0)/L;                % explicit L-scheme 
         v = u-u0;
