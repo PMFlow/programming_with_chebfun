@@ -39,7 +39,6 @@ for i=1:4
     fprintf('op_residual = %2.2e lbc_residual = %2.2e  rbc_residual = %2.2e \n', op_residual, lbc_residual, rbc_residual);
     fprintf('Residual = %2.2e Residual/norm(u) = %2.2e norm(u) = %2.2e\n',Residual,Residual/norm(u),norm(u));
     fprintf('degree of Chebyshev polynomial= %d \n',degree);
-    Q=q*100;
 end
 hold off
 ylabel('$z$','Interpreter','latex'),xlabel('$\psi(z)$','Interpreter','latex')
