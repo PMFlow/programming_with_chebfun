@@ -1,4 +1,4 @@
-%% Two dimensional FD L-scheme code to solv Richards equation
+%% Two dimensional FD L-scheme code to solve Richards equation
 
 clear all; close all
 tic
