@@ -1,4 +1,4 @@
-%%   Estimated order of accuracy for NON-steady Richards-2D
+%%   Estimated order of accuracy for unsteady Richards-2D
 
 close all; clear all;
 tic
