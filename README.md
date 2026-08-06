@@ -6,4 +6,6 @@
 
 - 'Chebfun_FD' - coupled Chebfun-FD L-schemes to solve non-steady problems for Richards equation in one and two spatial dimensions
 
-- 'Accuracy' - estimates of accuracy orders for FD L-schemes with Chebfun2 and Chebfun3 
+- 'Accuracy' - estimates of accuracy orders for FD L-schemes with Chebfun2 and Chebfun3
+
+- 'Lscheme_switching' - mixed schemes 'L-scheme/chebop' and 'L-scheme/Fréchet'
