@@ -54,7 +54,7 @@ semilogy(coeff,'o-','LineWidth',1,'MarkerSize',7);
 xlabel('Degree of the Chebyshev polinomial','Interpreter','latex');
 ylabel('Amplitude of the coefficients','Interpreter','latex');
 figure
-plot(u,x,'ro-','LineWidth',1); hold on
+plot(x,u,'ro-','LineWidth',1); hold on
 xlabel('$x$','Interpreter','latex');
 ylabel('$u(x)$','Interpreter','latex');
 toc
