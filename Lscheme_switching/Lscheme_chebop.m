@@ -34,6 +34,7 @@ legend('Corrections = $||v||$','Residuals = $||\Phi(u)||$','Interpreter','latex'
 legend('Box','off','Location','best')
 
 % 
+cheboppref.setDefaults('plotting','off','display','iter') % iteration details
 N = chebop(D);                        % Create a chebop on [D]
 N.op = @(u) diff(u,2)+2*u.*sin(u);    % Assign the DE part
 N.lbc = 'neumann';                    % Homogeneous Neumann LBC
